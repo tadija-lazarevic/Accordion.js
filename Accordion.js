@@ -20,7 +20,10 @@ var Accordion = (function () {
 
     // Hide all accordion item bodies except the first
     function clearContent() {
-        for (var i = 1; i < accordionItems.length; i++) {
+        for (var i = 0; i < accordionItems.length; i++) {
+            if (accordionItems[i].className == 'accordionItem show') {
+                return;
+            }
             accordionItems[i].className = 'accordionItem';
         }
     }
