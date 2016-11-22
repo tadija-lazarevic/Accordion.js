@@ -1,0 +1,46 @@
+.accordionItem {
+  margin-bottom: 10px;
+  -webkit-transition: all 0.3s ease-out
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
+.accordionTitle {
+  position: relative;
+  width: 100%;
+  padding: 0 6px;
+  height: 36px;
+  line-height: 38px;
+  display: block;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-o
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
+.accordionItem span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 12px;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: all 0.3s ease-o
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
+.accordionItem h2 {
+  color: #333; }
+.accordionItem.show .tabWrap {
+  display: block; }
+
+  .tabWrap {
+  padding: 0 6px;
+  height: auto;
+  display: none; }
